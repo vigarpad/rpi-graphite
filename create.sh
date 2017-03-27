@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CONTAINERNAME=graphite
+CONTAINERNAME=rpi-graphite
 BASE=$PWD
 
 docker create \
