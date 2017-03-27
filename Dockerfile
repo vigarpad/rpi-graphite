@@ -1,4 +1,4 @@
-FROM debian
+FROM resin/raspbian:jessie
 
 RUN apt-get update \
     && apt-get -qy upgrade  \
